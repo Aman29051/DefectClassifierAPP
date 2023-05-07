@@ -5,4 +5,4 @@ tensorflow==2.9.2
 keras==2.9.0
 protobuf==3.19.6
 scikit-learn==1.2.1
-streamlit-webrtc
+streamlit-webrtc==0.45.0

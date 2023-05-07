@@ -28,7 +28,7 @@ class VideoTransformer(VideoTransformerBase):
 # Function to capture image from camera
 def get_live_image():
     # Define the WebRTC video streamer
-    webrtc_ctx = webrtc_streamer(key="example", video_processor_factory=LiveImageTransformer)
+    webrtc_ctx = webrtc_streamer(key="example", video_processor_factory=VideoTransformer)
 
     # Check if the video streamer has started
     if not webrtc_ctx.video_transformer:

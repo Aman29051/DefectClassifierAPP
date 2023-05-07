@@ -1,5 +1,6 @@
 streamlit==1.17.0
 opencv-python-headless==4.5.4.58
 numpy==1.23.1
+tensorflow==2.9.2
 keras==2.9.0
 protobuf==3.19.6
